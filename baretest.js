@@ -35,6 +35,7 @@ module.exports = function(headline) {
         rgb.red(`\n\n! ${test.name} \n\n`)
         prettyError(e)
         console.info()
+        process.exitCode = 1
         return false
       }
     }

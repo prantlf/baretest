@@ -1,0 +1,10 @@
+dependencies:
+  barecolor: 1.0.1
+lockfileVersion: 5.2
+packages:
+  /barecolor/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-ncJ680U+r1CGBt73L3O6V9GIAPy3hbDmWODEQajwEnDmmzeStvc4UYhapUSxUpS76+MHxyRihzZfwhyl122Zdw==
+specifiers:
+  barecolor: 1.0.1
