@@ -4,6 +4,13 @@
 
 <img src="https://volument.com/blog/img/baretest/tester-matrix-big.png" alt="How Baretest fits on the testing landscape" width="600">
 
+This is a fork of the original project with the following enhancements:
+
+1. Remove the two trailing line breaks after each test suite (see [PR 19](https://github.com/volument/baretest/pull/19))
+2. Introduce a line break after a failed test (see [PR 19](https://github.com/volument/baretest/pull/19))
+3. Put just one empty line between the error message and the stack trace (see [PR 19](https://github.com/volument/baretest/pull/19))
+4. Set the process exit code to 1 in case of a failure (see  [PR 17](https://github.com/volument/baretest/pull/17))
+
 ### Install
 
 ```
